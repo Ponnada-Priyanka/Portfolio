@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3d029fd2bb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="logo2.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Accomplishments</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I am <span>Priyanka</span></h1>
+            <p> Information Technology</p>
+        </div>
+       </div> 
+    </div>
+    <!--------about-------!-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Actively contributes to group projects and motivates members to achieve common targets. 
+                        An inquisitive individual who is keen to continue learning and expanding their horizons of knowledge. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML,CSS,Javascript </li>
+                            <li><span>programming skills</span><br>c,c++,python </li>
+                            <li><span>Database</span><br>DBMS,SQL</li>
+                            
+                        </ul>
+                     </div>
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Edumoon</span><br>Web Developer<br>June 2022 - July 2022 </li>
+                        <li><span>HMI Engineering Services</span><br>Full Stack Web Development Using Python <br>May 2023 - June 2023 </li>
+                        
+                    </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology, Year of Pass: 2024</span><br>I am currently pursuing my BTech specialized in Information Technology 
+                                along with honors degree in Data Analysis, in Vignan's Institute of Information Technology.<br>CGPA: 9.37 </li>
+                            <li><span>Intermediate, Year of Pass: 2020</span><br>I have done my 11th and 12th in Narayana Junior College.<br>CGPA: 9.82 </li>
+                            <li><span> Class X, Year of Pass: 2018</span><br>I have done my schooling in Stella Maris School.<br>CGPA: 9.8</li>
+                            
+                        </ul>
+                </div>
+                  
+                
+            </div>
+        </div>
+
+    </div>
+    <!----------------------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Accomplishments</h1>
+            <div class="services-list">
+                <div class="x">
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li><span> CISCO(CCNA) </span>:Introduction to Computer Networks <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Cybersecurity Essentials</li>
+                        <li><span> Coursera </span>:Introduction to Cloud Computing </li>
+                        <li><span> Infosys Springboard </span>:Basics of Python <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Python Fundamentals  </li>
+                        <li><span> TCS ION </span>:TCS ION Career Edge-Young Professional</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="x">
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Achievements</h2>
+                    <ul>
+                    <li>I won first prize and awarded a cash prize of Rs.2000/- in a coding competition during VISTA-2K21.</li>
+                    <li>I am at a top 1 position out of 69 students till current semester.</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------Accomplishments-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pr1.png"> 
+                    <div class="layer">
+                        <h3>Task Manager</h3>
+                        <p>  Task Manager is a web application(CRUD) for planner with daily tasks updating and scheduling. 
+                            Time collision is detected to avoid disturbances and plan accordingly.<br> Languages used: HTML,CSS,Java</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="p2.jpg"> 
+                    <div class="layer">
+                        <h3>Pneumonia Disease Detection using Deep Learning</h3>
+                        <p>  In this project, the model will detect the condition of the person whether he/she is healthy or effected with Pneumonia.<br> Languages used: python</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+    <!-----------------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>priyankaponnada11@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9347729602</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/priyanka-ponnada-391779252/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume_Final.pdf" download class="btn btn2">Download resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Priyanka <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    </body>
+</html>
